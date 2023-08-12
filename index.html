@@ -533,11 +533,89 @@
               </li>
             </ul>
           </div>
+          <!--Footer Section 3-->
+        <div class="footer-subs">
+          <b class="footer-heading-2">Subscribe</b>
+            <ul class="footer-input list">
+             <li class="sub-item">
+               <label class="footer-email-1">
+                <input 
+                    type="email" 
+                    name="email" 
+                    class="footer-email" 
+                    placeholder="E-mail" 
+                    autofocus />
+                  </label>
+                </li>
+                <li class="sub-item-1">
+                  <button type="button" class="footer button">
+                     Subscribe   <svg class="footer-sub" width="24" height="24">
+                  <use href="./images/icons.svg#assets"></use></svg>
+              </button>
+            </li>
+          </ul> 
+        </div>
         </div>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
+        <b class="form-header">Leave your contacts and we will call you back</b>
+        <div class="form-cont">
+         <form name="signup_form" autocomplete="on" class="form-container" novalidate>
+            <label class="label-form" >
+              <span class="input-name">Name </span>
+               <input 
+                   type="text" 
+                   class="form-input"
+                   name="full_name" required 
+                   class="iname" 
+                   autofocus />
+                   <svg class="form-input-icon" width="18" height="18"><use href="./images/icons.svg#person"></use>
+                  </svg>
+                </label>
+             <label class="label-form">
+              <span class="input-name">Phone</span>
+               <input class="form-input"
+                   type="tel" 
+                   name="phone" 
+                   class="phone" 
+                   autofocus/>
+                   <svg class="form-input-icon" width="18" height="24"><use href="./images/icons.svg#phone"></use></svg>
+             </label>
+             <label class="label-form">
+              <span class="input-name">Email</span>
+              <input class="form-input" 
+                   type="email" 
+                   name="email" 
+                   class="email" 
+                   autofocus/>
+                   <svg class="form-input-icon"  width="18" height="24"><use href="./images/icons.svg#email"></use></svg>
+              </label>
+              <label class="label-form">
+              <span class="input-name">Comment</span>
+              <textarea name="comment" class="form-input"  
+                   type="comment" 
+                   rows="5"
+                   placeholder="Text input...."
+                   class="comment"
+                   ></textarea>
+          </label>
+          <label class="terms">
+            <input class="chckbx"
+                    type="checkbox" 
+                    name="user-terms"
+                    />
+            <span>
+            I accept the terms and conditions of the 
+            <span class="privacy">Privacy Policy
+           </span></span>
+            </label>
+          <div class="form-button"> 
+          <button type="submit" class="button form">Send</button>
+          </div> 
+          </div>
+        </form>
         <button type="button" class="modal-close" data-modal-close>
           <svg class="modal-close-icon" width="8" height="8">
             <use href="./images/icons.svg#close"></use>
