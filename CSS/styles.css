@@ -730,11 +730,17 @@ body {
     margin-left: 5px;
     text-decoration: underline;
 }
-.chckbx:hover,
-.chckbx:focus {
-    background-color: var(--green);
+
+input[type=checkbox]{
+    transform: scale(1);
     
 }
+#checkbox2:checked {
+    accent-color: var(--iriscolor);
+}
+
+
+
 
 
 
