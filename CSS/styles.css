@@ -691,13 +691,6 @@ body {
 .form-input-icon:focus {
     fill: var(--iriscolor);
 }
-.terms {
-    text-align: center;
-    justify-content: center;
-    font-size: 12px;
-    margin: auto;
-    margin-bottom: 32px;
-}
 
 .form-button{
     display: flex;
@@ -721,13 +714,21 @@ body {
 .form.button:focus {
     background-color: var(--oceancolor);      
 }
+.terms {
+    text-align: center;
+    justify-content: center;
+    font-size: 12px;
+    margin: auto;
+    margin-bottom: 32px;
+    cursor: pointer;
+}
 .privacy {
     color: var(--iriscolor);
     line-height: .1.17;
     letter-spacing: 0.05em;
     font-size: 12px;
     font-weight: 400;
-    margin-left: 5px;
+    margin-left: 1px;
     text-decoration: underline;
 }
 
@@ -738,7 +739,9 @@ input[type=checkbox]{
 #checkbox2:checked {
     accent-color: var(--iriscolor);
 }
-
+.checkbox__ {
+    cursor: pointer;
+}
 
 
 
