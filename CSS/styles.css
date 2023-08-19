@@ -500,11 +500,6 @@ body {
     gap: 20px;
 }
 
-.footer-input {
-    display: flex;
-    
-   
-}
 .page-footer {
     padding: 60px 0;
     background-color: var(--navyblue)
