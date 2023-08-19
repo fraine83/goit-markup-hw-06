@@ -495,10 +495,15 @@ body {
     border-radius: 50px;
 }
 
+.footer-email-1 {
+    display: flex;
+    gap: 20px;
+}
+
 .footer-input {
     display: flex;
-    gap: 16px;
-    margin-top: 20px;
+    
+   
 }
 .page-footer {
     padding: 60px 0;
@@ -516,18 +521,20 @@ body {
     width: 270px;
     font-weight: 400;
     line-height: 1.5;
-    margin: 0px;
+    margin-right: -50px;
 }
 .footer-heading {
     color: var(--ashwhite);      
 }
 .footer-heading-2 {
     color: var(--ashwhite);
+  
     
 }
 .footer {
     display: flex;
     justify-content: space-between;
+  
 
 }
 .page-footer {
@@ -541,7 +548,28 @@ body {
     height: 40px;
     padding: 8px 24px;
     width: 165px;
+    margin-top: 40px;
 }
+
+.footer-email {
+    margin-top: 40px;
+    margin-left: -95px;
+    width: 254px;
+    height: 40px;
+    padding-left: 16px;
+    outline: none;
+    background-color: var(--navyblue);
+    border: 1px solid var(--whitecolor);
+    border-radius: 4px;
+    color: var(--whitecolor);
+}
+
+.footer-subs {
+    display: flex;
+    gap: 20px
+}
+
+
 .footer-sub {
     fill: currentColor;
 }
@@ -551,16 +579,6 @@ body {
 .footer.button:hover,
 .footer.button:focus {
     background-color: var(--oceancolor);
-}
-
-.footer-email {
-    height: 40px;
-    padding-left: 16px;
-    outline: none;
-    background-color: var(--navyblue);
-    border: 1px solid var(--whitecolor);
-    border-radius: 4px;
-    color: var(--whitecolor);
 }
 
 
@@ -768,7 +786,7 @@ body {
     font-size: 12px;
     margin-bottom: 24px;
     cursor: pointer;
-    gap: 8px;
+    gap: 4px;
 }
 .privacy {
     color: var(--iriscolor);
@@ -783,25 +801,31 @@ body {
     width: 16px;
     height: 16px;
     cursor: pointer;
+    margin-right: -15px;
     appearance: none;
-    margin-right: 0px;
    
 }
 .check-icon {
+    margin-left: 5px;
     width: 16px;
     height: 16px;
+    outline: none;
     margin-right: 5px;
     border: 1px solid var(--lightslate);
-    fill: var(--whitecolor);
+    fill: none;
     border-radius: 2px;
     transition: border 250ms ease-in-out, background-color 250ms ease-in-out,
     fill 250ms ease-in-out;
 }
 .checkmark:checked + .check-icon {
     background-color: var(--oceancolor);
-    border-radius: var(--oceancolor);
-    fill: var(--whitecolor);
+    border-radius: 2px;
     outline: none;
+}
+.check-icon:hover,
+.check-icon:focus {
+    color: var(--oceancolor);
+    border-color: var(--oceancolor);
 }
 
 
