@@ -756,7 +756,6 @@ body {
 .form.button {
     color: var(--whitecolor);
     background-color: var(--iriscolor);
-   
     font-size: 16px;
     letter-spacing: 0.05em;
     font-weight: 500;
@@ -781,7 +780,7 @@ body {
     font-size: 12px;
     margin-bottom: 24px;
     cursor: pointer;
-    gap: 4px;
+    gap: 8px;
 }
 .privacy {
     color: var(--iriscolor);
@@ -793,19 +792,17 @@ body {
     text-decoration: underline;
 }
 .checkmark {
-    width: 16px;
+    position: relative;
+    width: 20px;
     height: 16px;
     cursor: pointer;
-    margin-right: -15px;
     appearance: none;
-   
 }
 .check-icon {
-    margin-left: 5px;
+    position: absolute;
     width: 16px;
     height: 16px;
     outline: none;
-    margin-right: 5px;
     border: 1px solid var(--lightslate);
     fill: none;
     border-radius: 2px;
@@ -813,14 +810,14 @@ body {
     fill 250ms ease-in-out;
 }
 .checkmark:checked + .check-icon {
-    background-color: var(--oceancolor);
-    border-radius: 2px;
-    outline: none;
+    fill: var(--whitecolor);
+    background-color: var(--iriscolor);
+    border: 1px solid var(--iriscolor); 
 }
 .check-icon:hover,
 .check-icon:focus {
-    color: var(--oceancolor);
-    border-color: var(--oceancolor);
+    color: var(--iriscolor);
+    border-color: var(--iriscolor);
 }
 
 
